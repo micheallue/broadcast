@@ -1,0 +1,19 @@
+{
+    "name": "soso/broadcast",
+    "description": "service side broadcast",
+    "type": "library",
+    "authors": [
+        {
+            "name": "soso",
+            "email": "28512@yahoo.com.tw"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "soso\\broadcast\\": "/src"
+        }
+    }
+}
