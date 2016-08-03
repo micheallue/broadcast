@@ -16,8 +16,8 @@ class MyBroadCastServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/Events' => base_path('app/Events'),
             __DIR__ . '/js' => base_path('resources/assets/js'),
-            __DIR__ . '/gulpfile.js' => base_path('/'),
-            __DIR__ . '/socket.js' => base_path('/'),
+            __DIR__ . '/gulpfile.js' => base_path('/gulpfile.js'),
+            __DIR__ . '/socket.js' => base_path('/socket.js'),
         ]);
     }
 
