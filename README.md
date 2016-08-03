@@ -19,6 +19,7 @@ npm install express socket.io ioredis --save
 npm install socket.io-client --save
 
 Check:
+  GULP Compiler
   Laravel Application（Nginx or php artisan serve）
   Redis server
   隊列監聽器（php artisan queue:listen）
