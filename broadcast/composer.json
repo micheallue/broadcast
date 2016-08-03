@@ -8,7 +8,8 @@
             "email": "28512@yahoo.com.tw"
         }
     ],
-    "minimum-stability": "dev-1.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
     "autoload": {
         "psr-4": {
