@@ -8,12 +8,11 @@
             "email": "28512@yahoo.com.tw"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-1.0.0",
     "require": {},
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "soso\\broadcast\\": "packages/soso/broadcast/src"
+            "soso\\broadcast\\": "/src"
         }
     }
 }
