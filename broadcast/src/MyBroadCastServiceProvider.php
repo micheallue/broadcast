@@ -4,7 +4,7 @@ namespace soso\broadcast;
 
 use Illuminate\Support\ServiceProvider;
 
-class BroadCastServiceProvider extends ServiceProvider
+class MyBroadCastServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
