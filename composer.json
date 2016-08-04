@@ -10,7 +10,12 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {},
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "predis/predis": "^1.1"
+    },
     "autoload": {
         "psr-4": {
             "soso\\broadcast\\": "/src"
