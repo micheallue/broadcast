@@ -4,7 +4,7 @@ server side broadcast
 composer require "soso/broadcast":"@dev"
 
 composer require predis/predis
-php artisan vendor:publish --force
+php artisan vendor:publish --provider="soso\broadcast\MyBroadCastServiceProvider" --force
 
 .env
 ...
