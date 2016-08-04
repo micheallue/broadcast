@@ -15,6 +15,7 @@ BROADCAST_DRIVER=redis
 php artisan migrate
 php artisan make:auth
 
+"C:\PROGRA~1\nodejs\npm" install gulp
 npm install express socket.io ioredis --save
 npm install socket.io-client --save
 
