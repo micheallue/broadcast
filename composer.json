@@ -8,7 +8,7 @@
             "email": "28512@yahoo.com.tw"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "predis/predis": "^1.1"
