@@ -19,7 +19,6 @@ redis.on('message', function(channel, notification) {
     io.emit('notification', notification.data.message);
 });
 
-// 監聽 3000 port
-http.listen(3000, function() {
-    console.log('Listening on Port 3000');
+http.listen(57298, function() {
+    console.log('Listening on Port-57298');
 });
