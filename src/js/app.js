@@ -36,7 +36,6 @@ xmlHttp.send(null);
 // 當從 socket.io server 收到 notification 時將訊息印在 console 上
 notification.on('disconnect', function() {
     console.log('Got disconnect!');
-    notification.reconnect();
 });
 
 notification.on('reconnect_failed', function () {
